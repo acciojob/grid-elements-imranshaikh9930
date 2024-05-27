@@ -1,6 +1,6 @@
 /*  your css code here. If applicable */
 
-.container{
+.grid-container{
 	display:grid;
 	grid-template-columns: repeat(3,1fr);
 	gap:.5rem;
@@ -9,7 +9,7 @@
 	
 }
 
-.container div{
+.grid-item{
 	background-color:#f2f2f2;
 	border:1px solid #ccc;
 }
